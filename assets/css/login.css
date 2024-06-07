@@ -1,0 +1,90 @@
+body {
+    background-color: #dbd8e3;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: #2a2438;
+}
+
+table {
+    text-align: left;
+}
+
+td {
+    padding: 15px;
+}
+
+input[type="submit"]{
+    /*background-color: white;*/
+    /*color: black;*/
+    /*padding: 10px 15px;*/
+    /*text-align: center;*/
+    /*border-radius: 50px;*/
+    /*width: 125px;*/
+
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 50px;
+    width:125px;
+}
+select{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 50px;
+    width:250px;
+}
+
+label {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 50px;
+    width: auto;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: transparent;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 50px;
+    width: 250px;
+}
+
+small{
+    display: block;
+    position: absolute;
+}
+
+.loaderClass {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
